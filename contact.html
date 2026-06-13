@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us | Millennium Tech Solutions</title>
-  <meta name="description" content="Contact Millennium Tech Solutions for IT equipment quotes, vendor registration, VR/AR demos, and partnership opportunities. Serving all of Southern California." />
+  <meta name="description" content="Contact Millennium Tech Solutions for IT equipment quotes, vendor registration, VR/AR solutions, and technology services in Southern California." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -49,20 +49,24 @@
   </div>
 </nav>
 
+<!-- PAGE HERO -->
 <section class="page-hero">
   <div class="container">
-    <span class="label">Get in Touch</span>
-    <h1>Contact Millennium Tech Solutions</h1>
-    <p>Ready to discuss your IT needs? Whether you need a hardware quote, want to register us as a vendor, or are exploring VR/AR solutions — we would love to hear from you.</p>
+    <span class="label">Contact Us</span>
+    <h1>Let's Start a Conversation</h1>
+    <p>Whether you need a hardware quote, want to register us as a vendor, or are exploring VR/AR solutions — we are ready to help. Reach out and we will respond promptly.</p>
   </div>
 </section>
 
+<!-- CONTACT SECTION -->
 <section class="section">
   <div class="container">
     <div class="contact-grid">
 
+      <!-- LEFT: Contact Info -->
       <div class="contact-info fade-up">
         <h3>Contact Information</h3>
+        <p style="color:var(--slate);font-size:0.9rem;margin-bottom:0.5rem;">Reach us directly or fill out the form and we will get back to you within one business day.</p>
 
         <div class="contact-item">
           <div class="ci-icon">📧</div>
@@ -84,7 +88,8 @@
           <div class="ci-icon">📍</div>
           <div class="ci-text">
             <strong>Location</strong>
-            <span>Riverside, California<br>Serving all of Southern California</span>
+            <span>Riverside, CA</span>
+            <span style="font-size:0.82rem;color:var(--muted);">Serving all of Southern California</span>
           </div>
         </div>
 
@@ -92,13 +97,15 @@
           <div class="ci-icon">🕐</div>
           <div class="ci-text">
             <strong>Business Hours</strong>
-            <span>Mon–Fri: 8:00 AM – 6:00 PM PST<br>Saturday: By Appointment</span>
+            <span>Monday – Friday: 8:00 AM – 6:00 PM PST</span>
+            <span style="font-size:0.82rem;color:var(--muted);">Emergency support available 24/7</span>
           </div>
         </div>
 
-        <div style="margin-top:2rem;padding-top:2rem;border-top:1px solid var(--border);">
-          <span class="label">Service Areas</span>
-          <div class="area-tags" style="margin-top:0.75rem;">
+        <!-- Service Areas -->
+        <div style="margin-top:2rem;">
+          <p style="font-size:0.8rem;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.75rem;">Service Areas</p>
+          <div class="area-tags">
             <span class="area-tag">Riverside County</span>
             <span class="area-tag">Los Angeles County</span>
             <span class="area-tag">San Bernardino County</span>
@@ -108,63 +115,63 @@
           </div>
         </div>
 
-        <div style="margin-top:2rem;padding-top:2rem;border-top:1px solid var(--border);">
-          <span class="label">Government Procurement</span>
-          <p style="font-size:0.88rem;margin-top:0.75rem;">Millennium Tech Solutions is a registered vendor with <strong style="color:white;">Riverside County</strong> and <strong style="color:white;">Los Angeles County</strong> for IT equipment, computer parts, and peripherals. Contact us for procurement details.</p>
+        <!-- Vendor Info -->
+        <div style="margin-top:2rem;background:var(--light);border:1px solid var(--border);border-radius:10px;padding:1.25rem;">
+          <p style="font-size:0.8rem;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.5rem;">Government Vendor Registration</p>
+          <p style="font-size:0.85rem;color:var(--slate);line-height:1.6;">We are a registered vendor with <strong>Riverside County</strong> and <strong>LA County</strong> for IT equipment and computer parts. For vendor registration inquiries at other agencies, please contact us directly.</p>
         </div>
       </div>
 
+      <!-- RIGHT: Contact Form -->
       <div class="contact-form-wrap fade-up fade-up-delay-2">
         <h3>Send Us a Message</h3>
-        <p>Fill out the form below and we will respond within one business day.</p>
-
-        <form id="contactForm" novalidate>
+        <p>Fill out the form below and a member of our team will respond within one business day.</p>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
           <div class="form-row">
             <div class="form-group">
               <label for="firstName">First Name *</label>
-              <input type="text" id="firstName" name="firstName" placeholder="John" required />
+              <input type="text" id="firstName" name="firstName" required placeholder="John" />
             </div>
             <div class="form-group">
               <label for="lastName">Last Name *</label>
-              <input type="text" id="lastName" name="lastName" placeholder="Smith" required />
+              <input type="text" id="lastName" name="lastName" required placeholder="Smith" />
             </div>
           </div>
           <div class="form-row">
             <div class="form-group">
-              <label for="email">Email *</label>
-              <input type="email" id="email" name="email" placeholder="john@company.com" required />
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="john@company.com" />
             </div>
             <div class="form-group">
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="phone" placeholder="(909) 555-0100" />
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" />
             </div>
           </div>
           <div class="form-group">
             <label for="organization">Organization / Company *</label>
-            <input type="text" id="organization" name="organization" placeholder="Your company or agency name" required />
+            <input type="text" id="organization" name="organization" required placeholder="Your organization name" />
           </div>
           <div class="form-group">
-            <label for="inquiryType">Inquiry Type *</label>
-            <select id="inquiryType" name="inquiryType" required>
-              <option value="" disabled selected>Select the nature of your inquiry</option>
-              <option value="hardware-quote">Hardware Equipment Quote</option>
-              <option value="software-vr-ar">VR / AR Solutions Demo</option>
-              <option value="government-vendor">Government Vendor / Procurement</option>
-              <option value="enterprise-vendor">Enterprise Vendor Registration</option>
-              <option value="partnership">Partnership Opportunity</option>
-              <option value="general">General Inquiry</option>
+            <label for="subject">Inquiry Type *</label>
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>Select inquiry type</option>
+              <option value="hardware">Hardware Procurement Quote</option>
+              <option value="software">Software / VR / AR Solutions</option>
+              <option value="vendor">Vendor Registration</option>
+              <option value="government">Government Procurement</option>
+              <option value="infrastructure">IT Infrastructure</option>
+              <option value="other">General Inquiry</option>
             </select>
           </div>
           <div class="form-group">
             <label for="message">Message *</label>
-            <textarea id="message" name="message" placeholder="Describe your needs, project scope, timeline, or any questions you have..." required></textarea>
+            <textarea id="message" name="message" required placeholder="Please describe your needs, project scope, timeline, or any questions you have..."></textarea>
           </div>
           <button type="submit" class="btn btn-primary form-submit">Send Message →</button>
         </form>
-
-        <div class="form-success">
-          <h3 style="color:#00c864;margin-bottom:0.5rem;">✓ Message Sent!</h3>
-          <p style="color:#00c864;">Thank you for reaching out. A member of our team will respond within one business day.</p>
+        <div class="form-success" id="formSuccess">
+          <p style="font-size:1.1rem;font-weight:700;color:#15803d;margin-bottom:0.5rem;">✓ Message Sent Successfully</p>
+          <p style="font-size:0.9rem;color:#166534;">Thank you for reaching out. A member of our team will contact you within one business day.</p>
         </div>
       </div>
 
@@ -172,39 +179,7 @@
   </div>
 </section>
 
-<!-- Process -->
-<section class="section section-alt">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="label">What to Expect</span>
-      <h2>How We Handle Your Inquiry</h2>
-      <div class="divider"></div>
-    </div>
-    <div class="process-steps">
-      <div class="process-step fade-up fade-up-delay-1">
-        <div class="step-num">1</div>
-        <h3>Fast Response</h3>
-        <p>All inquiries receive a response within one business day. Urgent? Call us directly.</p>
-      </div>
-      <div class="process-step fade-up fade-up-delay-2">
-        <div class="step-num">2</div>
-        <h3>Free Consultation</h3>
-        <p>We offer a complimentary consultation to understand your needs and recommend the best solutions.</p>
-      </div>
-      <div class="process-step fade-up fade-up-delay-3">
-        <div class="step-num">3</div>
-        <h3>Custom Proposal</h3>
-        <p>A detailed, transparent proposal tailored to your requirements and budget — no hidden fees.</p>
-      </div>
-      <div class="process-step fade-up fade-up-delay-4">
-        <div class="step-num">4</div>
-        <h3>Partnership Begins</h3>
-        <p>We get to work and stay with you long after delivery — because we are partners, not just vendors.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
+<!-- CTA -->
 <section class="cta-banner">
   <div class="container">
     <span class="label">Let's Connect</span>
@@ -228,12 +203,12 @@
             <span class="logo-sub">IT Equipment &amp; Technology</span>
           </div>
         </a>
-        <p>Your trusted IT equipment supplier and technology partner in Southern California.</p>
+        <p>Your trusted IT equipment supplier and technology partner in Southern California. 20+ years of expertise, community-focused service.</p>
         <div class="footer-social">
           <a href="#" class="social-btn">in</a>
           <a href="#" class="social-btn">𝕏</a>
           <a href="#" class="social-btn">f</a>
-          <a href="mailto:info@millenniumtechsol.com" class="social-btn">@</a>
+          <a href="mailto:sf@millenniumtechsol.com" class="social-btn">@</a>
         </div>
       </div>
       <div class="footer-col">
@@ -267,6 +242,7 @@
       <div class="cert-badges">
         <span class="cert-badge">Riverside County Vendor</span>
         <span class="cert-badge">LA County Vendor</span>
+        <span class="cert-badge">IT Certified</span>
       </div>
     </div>
   </div>
