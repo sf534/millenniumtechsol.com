@@ -957,6 +957,7 @@ ul { list-style: none; }
   .cta-btns { flex-direction: column; align-items: center; }
 }
 
-.hero {
-  padding: 170px 0 80px;
+.hero-badge {
+  margin-top: 1.5rem;
 }
+
