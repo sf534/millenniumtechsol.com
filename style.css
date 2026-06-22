@@ -84,7 +84,7 @@ ul { list-style: none; }
 .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-name { font-family: var(--font-h); font-weight: 700; font-size: 0.95rem; color: var(--navy); }
 .logo-sub  { font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
-.nav-logo-img { height: 60px; width: auto; max-width: 200px; display: block; object-fit: contain; flex-shrink: 0; }
+.nav-logo-img { height: 100px; width: auto; max-width: 230px; display: block; object-fit: contain; flex-shrink: 0; }
 
 .nav-links {
   display: flex;
