@@ -956,3 +956,7 @@ ul { list-style: none; }
   .hero-btns { flex-direction: column; }
   .cta-btns { flex-direction: column; align-items: center; }
 }
+
+.hero {
+  padding: 170px 0 80px;
+}
