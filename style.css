@@ -84,7 +84,7 @@ ul { list-style: none; }
 .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-name { font-family: var(--font-h); font-weight: 700; font-size: 0.95rem; color: var(--navy); }
 .logo-sub  { font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
-.nav-logo-img { height: 48px; width: auto; max-width: 150px; display: block; object-fit: contain; flex-shrink: 0; }
+.nav-logo-img { height: 60px; width: auto; max-width: 200px; display: block; object-fit: contain; flex-shrink: 0; }
 
 .nav-links {
   display: flex;
@@ -234,6 +234,15 @@ ul { list-style: none; }
 .fade-up-delay-5 { transition-delay: 0.5s; }
 
 /* ---- HERO ---- */
+.hero-company-name {
+  font-family: var(--font-h);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 800;
+  color: var(--navy);
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.03em;
+}
 .hero {
   padding: 140px 0 80px;
   background: var(--white);
@@ -279,7 +288,7 @@ ul { list-style: none; }
 
 .hero-content h1 {
   font-family: var(--font-h);
-  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
   font-weight: 800;
   line-height: 1.12;
   color: var(--navy);
