@@ -60,7 +60,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 160px;
+  height: 120px;
   gap: 2rem;
 }
 
@@ -71,7 +71,7 @@ ul { list-style: none; }
   flex-shrink: 0;
 }
 .logo-icon {
-  width: 60px; height: 60px;
+  width: 40px; height: 40px;
   background: var(--blue);
   color: white;
   font-family: var(--font-h);
@@ -84,7 +84,7 @@ ul { list-style: none; }
 .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-name { font-family: var(--font-h); font-weight: 700; font-size: 0.95rem; color: var(--navy); }
 .logo-sub  { font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
-.nav-logo-img { height: 140px; width: auto; max-width: 400px; display: block; object-fit: contain; flex-shrink: 0; }
+.nav-logo-img { height: 100px; width: auto; max-width: 330px; display: block; object-fit: contain; flex-shrink: 0; }
 
 .nav-links {
   display: flex;
@@ -236,15 +236,20 @@ ul { list-style: none; }
 /* ---- HERO ---- */
 .hero-company-name {
   font-family: var(--font-h);
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
-  font-weight: 800;
-  color: var(--navy);
-  line-height: 1.1;
-  margin-bottom: 0.5rem;
-  letter-spacing: -0.03em;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 900;
+  color: var(--blue);
+  line-height: 1.0;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, var(--blue) 0%, var(--navy) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
 }
 .hero {
-  padding: 140px 0 80px;
+  padding: 180px 0 80px;
   background: var(--white);
   position: relative;
   overflow: hidden;
@@ -956,8 +961,3 @@ ul { list-style: none; }
   .hero-btns { flex-direction: column; }
   .cta-btns { flex-direction: column; align-items: center; }
 }
-
-.hero-badge {
-  margin-top: 1.5rem;
-}
-
