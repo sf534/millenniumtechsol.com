@@ -19,8 +19,8 @@
   --radius:  8px;
   --shadow:  0 1px 3px rgba(0,0,0,.08), 0 4px 16px rgba(0,0,0,.06);
   --shadow-lg: 0 8px 32px rgba(0,0,0,.10);
-  --font:    'Inter', system-ui, sans-serif;
-  --font-h:  'Syne', 'Inter', sans-serif;
+  --font:    'Manrope', system-ui, sans-serif;
+  --font-h:  'Manrope', 'system-ui', sans-serif;
   --trans:   0.25s ease;
 }
 
