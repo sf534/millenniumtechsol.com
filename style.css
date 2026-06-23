@@ -60,7 +60,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 190px;
+  height: 170px;
   gap: 2rem;
 }
 
