@@ -60,7 +60,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 120px;
+  height: 250px;
   gap: 2rem;
 }
 
@@ -71,7 +71,7 @@ ul { list-style: none; }
   flex-shrink: 0;
 }
 .logo-icon {
-  width: 60px; height: 60px;
+  width: 40px; height: 40px;
   background: var(--blue);
   color: white;
   font-family: var(--font-h);
@@ -84,7 +84,7 @@ ul { list-style: none; }
 .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-name { font-family: var(--font-h); font-weight: 700; font-size: 0.95rem; color: var(--navy); }
 .logo-sub  { font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
-.nav-logo-img { height: 100px; width: auto; max-width: 330px; display: block; object-fit: contain; flex-shrink: 0; }
+.nav-logo-img { height: 200px; width: auto; max-width: 500px; display: block; object-fit: contain; flex-shrink: 0; }
 
 .nav-links {
   display: flex;
@@ -249,7 +249,7 @@ ul { list-style: none; }
   filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
 }
 .hero {
-  padding: 180px 0 80px;
+  padding: 300px 0 80px;
   background: var(--white);
   position: relative;
   overflow: hidden;
