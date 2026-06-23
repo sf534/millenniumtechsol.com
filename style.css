@@ -60,7 +60,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 250px;
+  height: 210px;
   gap: 2rem;
 }
 
@@ -249,7 +249,7 @@ ul { list-style: none; }
   filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
 }
 .hero {
-  padding: 300px 0 80px;
+  padding: 230px 0 80px;
   background: var(--white);
   position: relative;
   overflow: hidden;
